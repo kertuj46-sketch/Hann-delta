@@ -1,0 +1,97 @@
+body{
+  margin:0;
+  background:#07090f;
+  color:white;
+  font-family:Arial,sans-serif;
+}
+
+.container{
+  padding:18px;
+}
+
+h1{
+  font-size:38px;
+  margin-bottom:12px;
+}
+
+.top{
+  display:flex;
+  gap:10px;
+  margin-bottom:18px;
+}
+
+.top span,.top button{
+  background:#10141f;
+  border:1px solid #2d3344;
+  padding:12px;
+  border-radius:14px;
+  color:white;
+}
+
+.top button{
+  color:#8CFF3D;
+}
+
+.card{
+  background:#10141f;
+  border:1px solid #22283a;
+  border-radius:18px;
+  padding:16px;
+  margin-bottom:14px;
+}
+
+.slot{
+  border-left:4px solid #8CFF3D;
+}
+
+.value{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.bar{
+  height:8px;
+  background:#22283a;
+  border-radius:8px;
+  margin:10px 0;
+}
+
+.fill{
+  width:0%;
+  height:100%;
+  background:#8CFF3D;
+  border-radius:8px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.grid h2{
+  font-size:34px;
+  margin:8px 0;
+}
+
+.nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:space-around;
+  background:#0b0f17;
+  padding:12px;
+  border-top:1px solid #22283a;
+}
+
+.nav button{
+  background:none;
+  border:none;
+  color:#666;
+}
+
+.nav .active{
+  color:#8CFF3D;
+}
